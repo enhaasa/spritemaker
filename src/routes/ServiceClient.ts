@@ -1,7 +1,7 @@
 export class ServiceClient {
     private readonly baseUrl = window.location.hostname === 'localhost' 
     ? 'http://localhost:8000/routes'
-    : `${window.location.origin}/backend/routes`;
+    : `${window.location.origin}/apps/spritemaker/backend/routes`;
 
     private api: string;
 
