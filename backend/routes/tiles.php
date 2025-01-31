@@ -19,7 +19,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
 
 function get()
 {
-    $result = query('SELECT * FROM tilesets');
+    $result = query('SELECT * FROM tiles');
     echo json_encode($result);
 }
 

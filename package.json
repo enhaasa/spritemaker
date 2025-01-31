@@ -6,13 +6,15 @@
   "scripts": {
     "frontend": "vite",
     "backend": "cd backend && php -S localhost:8000",
+    "mkcomp": "ts-node custom_scripts/create_component.js",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "sass": "^1.83.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
