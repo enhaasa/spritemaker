@@ -6,6 +6,7 @@
   "scripts": {
     "frontend": "vite",
     "backend": "cd backend && php -S localhost:8000",
+    "create-database": "cd backend/database && sqlite3 database.db",
     "mkcomp": "ts-node custom_scripts/create_component.js",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

@@ -1,4 +1,14 @@
 .container {
+    all: unset;
     background: rgba(0, 0, 0, 0.4);
     display: grid;
+    cursor: pointer;;
+
+    &:hover {
+        outline: 1px solid purple;
+    }
+
+    &.active {
+        outline: 1px solid red;
+    }
 }

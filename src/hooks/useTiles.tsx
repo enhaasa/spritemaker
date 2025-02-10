@@ -24,7 +24,5 @@ export default function useTiles() {
 
     useEffect(() => {init()}, []);
 
-    return {
-        get: data
-    }
+    return { get: data }
 }
